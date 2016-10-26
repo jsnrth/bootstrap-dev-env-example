@@ -1,0 +1,9 @@
+---
+- name: install java
+  homebrew_cask: name=java state=present
+
+- name: install scala
+  homebrew: name=scala state=latest
+
+- name: install sbt
+  homebrew: name=sbt state=latest

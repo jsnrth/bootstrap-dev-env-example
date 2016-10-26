@@ -1,0 +1,8 @@
+---
+- name: Provision My Mac
+  hosts: local-mac
+  connection: local
+  roles:
+    - docker
+    - jvm
+    - node

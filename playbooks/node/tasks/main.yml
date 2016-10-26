@@ -1,0 +1,6 @@
+---
+- name: install node
+  homebrew: name=node state=latest
+
+- name: install npm
+  homebrew: name=npm state=latest
